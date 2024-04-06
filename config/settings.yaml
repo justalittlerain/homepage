@@ -1,0 +1,36 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+title: Just A Little Rain
+
+background: 
+  image: /images/background.jpg
+  blur: sm
+  opacity: 30
+
+favicon: /images/favicon.ico
+
+theme: dark
+
+color: slate
+
+layout:
+  Proxmox:
+    style: row
+    columns: 3
+  PiHole:
+    style: row
+    columns: 2
+  Media Info:
+    style: row
+    columns: 3
+  Network:
+  Media:
+  ARRS!:
+  Utilities:
+    style: row
+    columns: 4
+
+
+  

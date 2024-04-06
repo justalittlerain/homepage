@@ -1,0 +1,21 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Hompages:
+    - Heimdall:
+        - abbr: HD
+          href: https://heimdall.lab.justalittlerain.dev/
+          description: " "
+
+- Learning:
+    - Udemy:
+        - abbr: U
+          href: https://www.udemy.com/
+          description: " "
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+          description: " "

@@ -1,0 +1,31 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/service-widgets
+
+- greeting: 
+    text_size: 2xl
+    text: JustALittleRain
+
+- resources:
+    cpu: false
+    memory: false
+    #disk: /
+
+- openmeteo:
+    label: Ashburn
+    latitude: 39.014040
+    longitude: -77.523520
+    timezone: America/New_York
+    units: imperial
+    cache: 5
+
+- search:
+    provider: google
+    focus: true
+    target: _blank
+
+- datetime:
+    format:
+        dateStyle: short
+        timeStyle: short
+        hour12: true

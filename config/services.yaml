@@ -1,0 +1,179 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Proxmox:
+    - RainCloud:
+        icon: proxmox.png
+        href: https://raincloud.lab.justalittlerain.dev
+        widget:
+            type: proxmox
+            url: https://raincloud.lab.justalittlerain.dev
+            username: username
+            password: password
+            node: raincloud
+    - SnowCloud:
+        icon: proxmox.png
+        href: https://snowcloud.lab.justalittlerain.dev
+        widget:
+            type: proxmox
+            url: https://snowcloud.lab.justalittlerain.dev
+            username: usename
+            password: password
+            node: snowcloud
+    - SunCloud:
+        icon: proxmox.png
+        href: https://suncloud.lab.justalittlerain.dev
+        widget:
+            type: proxmox
+            url: https://suncloud.lab.justalittlerain.dev
+            username: username
+            password: password
+            node: suncloud
+
+
+- PiHole:
+    - Pihole:
+        icon: pi-hole.png
+        href: https://pihole.lab.justalittlerain.dev
+        description: Primary - 192.168.50.104
+        widget:
+            type: pihole
+            url: http://192.168.50.104
+            key: APIKEY
+    - Pihole-DR:
+        icon: pi-hole.png
+        href: https://piholedr.lab.justalittlerain.dev
+        description: DR - 192.168.10.104
+        widget:
+            type: pihole
+            url: http://192.168.10.104
+            key: APIKEY
+
+- Media Info:
+    - Radarr :
+        icon: radarr.png
+        href: http://192.168.50.155:7878
+        description: Movie Organizer
+        widget:
+            type: radarr
+            url: http://192.168.50.155:7878
+            key: APIKEY
+    - Sonarr :
+        icon: sonarr.png
+        href: http://192.168.50.155:8989
+        description: TV Show Organizer
+        widget:
+            type: sonarr
+            url: http://192.168.50.155:8989
+            key: APIKEY
+    - Bazarr :
+        icon: bazarr.png
+        href: http://192.168.50.155:6767
+        description: TV Show Organizer
+        widget:
+            type: bazarr
+            url: http://192.168.50.155:6767
+            key: APIKEY
+
+- Network:
+    - pfSense:
+        icon: pfsense.png
+        href: https://pfsense.lab.justalittlerain.dev:8443
+        description: Pfsense - router / firewall
+    - RainCloud iLO:
+        icon: ilo.png
+        href: http://192.168.5.15
+        description: RainCloud Server iLo
+    - Rainstorm - Brocade:
+        icon: brocade.png
+        href: http://192.168.5.50
+        description: Brocade ICX6450
+    - Home AP:
+        icon: tp-link.png
+        href: http://192.168.5.40/
+        description: TP Link AP
+
+- Media:
+    - Plex:
+        icon: plex.png
+        href: https://plex.lab.justalittlerain.dev
+        description: Movies / TV
+    - JellyFin:
+        icon: jellyfin.png
+        href: http://192.168.10.108:8096
+        description: Test instance111
+    - PhotoPrism:
+        icon: photoprism.png
+        href: https://photos.lab.justalittlerain.dev/
+        description: Pictures
+    - Calibre-Web:
+        icon: calibre.png
+        href: http://192.168.50.155:8083/
+        description: Ebook Library
+
+- ARRS! :
+    - Overseerr:
+        icon: overseerr.png
+        href: https://overseerr.lab.justalittlerain.dev
+        description: Movies / TV Curator
+    - Readarr:
+        icon: readarr.png
+        href: http://192.168.50.155:8788
+        description: Book Organizer
+    - Prowlarr:
+        icon: prowlarr.png
+        href: http://192.168.50.155:9696
+        description: Usenet Indexer
+    - SABnzbd:
+        icon: sabnzbd.png
+        href: http://192.168.50.155:8080
+        description: Usenet "collector"
+
+- Utilities :
+    - OpenMediaVault:
+        icon: openmediavault.png
+        href: https://omv.lab.justalittlerain.dev
+        description: NAS
+    - Uptime_Kuma:
+        icon: uptime-kuma.png
+        href: https://uptime.lab.justalittlerain.dev
+        description: Uptime Status Watcher
+    - Frigate:
+        icon: frigate.png
+        href: http://192.168.50.120:5000
+        description: Camera NVR
+    - Guacamole:
+        icon: guacamole.png
+        href: http://192.168.50.110:8081/guacamole/#/
+        description: RDP Server
+    - LLDAP:
+        icon: /icons/padlock.png
+        href: http://192.168.50.110:17170/
+        description: LLdap server
+    - Portainer:
+        icon: portainer.png
+        href: https://portainer.lab.justalittlerain.dev
+        description: Container Managment
+    - Syncthing:
+        icon: syncthing.png
+        href: https://syncthing.lab.justalittlerain.dev/
+        description: Sync Tool
+    - Home Assistant:
+        icon: home-assistant.png
+        href: https://ha.lab.justalittlerain.dev
+        description: Smart Home
+    - Netboot.xyz:
+        icon: netboot.png
+        href: http://192.168.50.160:3000/
+        description: Network boot tools
+    - GrayLog:
+        icon: graylog.png
+        href: http://192.168.50.160:9000
+        description: GrayLog Server
+
+
+
+
+
+
